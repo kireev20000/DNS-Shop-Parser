@@ -75,7 +75,7 @@ def get_all_category_page_urls(driver, url_to_parse):
 
     res = int(''.join(map(str, number_of_pages)))
     pages_total = ((res // 18) + 1)
-    print(f'Всего в категории {pages_total+1} страницы')
+    print(f'Всего в категории {pages_total} страницы')
 
     urls = []
 
